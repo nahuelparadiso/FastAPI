@@ -41,6 +41,7 @@ async def root():
 
 
 Corre el servidor en vivo:
+
 Pega este codigo en la terminal donde tengas abierto main.py:
 
 uvicorn main:app --reload
@@ -70,12 +71,14 @@ app: el objeto creado dentro de main.py con la línea app = FastAPI().
 --reload: hace que el servidor se reinicie cada vez que cambia el código. Úsalo únicamente para desarrollo.
 
 Seguimos con la explicación.
+
 En el output, hay una línea que dice más o menos: 
 
 INFO: Uvicorn running on http://127.0.0.1:8000  
 #Esa línea muestra la URL dónde se está sirviendo tu app en tu maquina local.
 
 Revísalo:
+
 Abre tu navegador en http://127.0.0.1:8000.
 
 Verás la respuesta en JSON: {"message": "Hello World"}
