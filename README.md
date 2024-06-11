@@ -5,7 +5,9 @@
 INSTALA FastAPI:
 El primer paso es instalar FastAPI.
 Para el tutorial, es posible que quieras instalarlo con todas las dependencias y características opcionales:
+
 pip install "fastapi[all]"
+
 también incluye uvicorn que puedes usar como el servidor que ejecuta tu código.
 
 TAMBIEN PUEDES INSTALARLO PARTE POR PARTE.
@@ -20,6 +22,8 @@ Aca veremos como utilizarlo para que puedas implementar los pasos basicos que of
 Un archivo muy basico de FastAPI podría verse de esta manera:
 Copia el siguiente codigo en un archivo main.py.
 
+
+
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -27,7 +31,9 @@ app = FastAPI()
 @app.get("/")
 
 async def root():
+    
     return {"message": "Hello World"}       
+
 
 
 Corre el servidor en vivo:
@@ -44,6 +50,7 @@ INFO:     Started server process [28722]
 INFO:     Waiting for application startup.
 
 INFO:     Application startup complete.
+
 
 En caso contrario habria que solucionar el problema y ver porque estaria dando error.
 
