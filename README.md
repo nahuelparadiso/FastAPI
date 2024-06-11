@@ -12,8 +12,11 @@ también incluye uvicorn que puedes usar como el servidor que ejecuta tu código
 
 TAMBIEN PUEDES INSTALARLO PARTE POR PARTE.
 Esto es lo que probablemente harías una vez que desees implementar tu aplicación en producción: 
+
 pip install fastapi
+
 También debes instalar uvicorn para que funcione como tu servidor: 
+
 pip install "uvicorn[standard]"
 
 PRIMEROS PASOS:
@@ -57,12 +60,16 @@ En caso contrario habria que solucionar el problema y ver porque estaria dando e
 
 #NOTA EXPLICATIVA:
 El comando uvicorn main:app se refiere a:
+
 main: el archivo main.py (el "módulo" de Python).
+
 app: el objeto creado dentro de main.py con la línea app = FastAPI().
+
 --reload: hace que el servidor se reinicie cada vez que cambia el código. Úsalo únicamente para desarrollo.
 
 Seguimos con la explicación.
 En el output, hay una línea que dice más o menos: 
+
 INFO: Uvicorn running on http://127.0.0.1:8000  
 #Esa línea muestra la URL dónde se está sirviendo tu app en tu maquina local.
 
