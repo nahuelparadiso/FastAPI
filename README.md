@@ -24,8 +24,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-
 @app.get("/")
+
 async def root():
     return {"message": "Hello World"}       
 
@@ -36,9 +36,13 @@ uvicorn main:app --reload
 Si todo salio bien debebria darte el siguiente resultado en la terminal.
 
 INFO:     Uvicorn running on http://127.0.0.1:8000
+
 INFO:     Started reloader process [28720]
+
 INFO:     Started server process [28722]
+
 INFO:     Waiting for application startup.
+
 INFO:     Application startup complete.
 
 En caso contrario habria que solucionar el problema y ver porque estaria dando error.
