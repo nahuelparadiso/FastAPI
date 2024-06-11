@@ -2,19 +2,19 @@
 
 #Tutorial - Guía para el Usuario
 
-#INSTALA FastAPI:
+INSTALA FastAPI:
 El primer paso es instalar FastAPI.
 Para el tutorial, es posible que quieras instalarlo con todas las dependencias y características opcionales:
 pip install "fastapi[all]"
 también incluye uvicorn que puedes usar como el servidor que ejecuta tu código.
 
-#TAMBIEN PUEDES INSTALARLO PARTE POR PARTE.
+TAMBIEN PUEDES INSTALARLO PARTE POR PARTE.
 Esto es lo que probablemente harías una vez que desees implementar tu aplicación en producción: 
 pip install fastapi
 También debes instalar uvicorn para que funcione como tu servidor: 
 pip install "uvicorn[standard]"
 
-#PRIMEROS PASOS:
+PRIMEROS PASOS:
 Aca veremos como utilizarlo para que puedas implementar los pasos basicos que ofrece.
 
 Un archivo muy basico de FastAPI podría verse de esta manera:
@@ -35,7 +35,7 @@ Pega este codigo en la terminal donde tengas abierto main.py:
 uvicorn main:app --reload
 Si todo salio bien debebria darte el siguiente resultado en la terminal.
 
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Uvicorn running on http://127.0.0.1:8000
 INFO:     Started reloader process [28720]
 INFO:     Started server process [28722]
 INFO:     Waiting for application startup.
