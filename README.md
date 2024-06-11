@@ -20,6 +20,7 @@ PRIMEROS PASOS:
 Aca veremos como utilizarlo para que puedas implementar los pasos basicos que ofrece.
 
 Un archivo muy basico de FastAPI podría verse de esta manera:
+
 Copia el siguiente codigo en un archivo main.py.
 
 
