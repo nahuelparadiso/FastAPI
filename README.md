@@ -42,7 +42,9 @@ async def root():
 
 Corre el servidor en vivo:
 Pega este codigo en la terminal donde tengas abierto main.py:
+
 uvicorn main:app --reload
+
 Si todo salio bien debebria darte el siguiente resultado en la terminal.
 
 INFO:     Uvicorn running on http://127.0.0.1:8000
